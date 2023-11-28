@@ -60,7 +60,7 @@
     
     #algorithms-container {
         margin-top: 20px;
-        padding: 20px;
+        padding: 0px;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         transform: translateZ(0);
@@ -115,7 +115,7 @@
         position: relative;
     }
     
-    h1::after {
+    h2::after {
         content: '|';
         
         top: 0;
@@ -193,7 +193,7 @@ header {
 
 #algorithms-container {
     margin-top: 20px;
-    padding: 20px;
+    padding: 0px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transform: translateZ(0);
@@ -248,7 +248,7 @@ h1 {
     position: relative;
 }
 
-h1::after {
+h2::after {
     content: '|';
     
     top: 0;
